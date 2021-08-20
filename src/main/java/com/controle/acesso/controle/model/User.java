@@ -2,6 +2,8 @@ package com.controle.acesso.controle.model;
 
 import lombok.*;
 
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -14,14 +16,14 @@ import java.time.LocalDateTime;
 @Builder
 public class User {
     private long id;
-    @OneToMany
+    @ManyToOne
     private CategoryUser categoryUser;
     private String userName;
-    @OneToMany
+    @ManyToOne
     private Company company;
-    @OneToMany
+    @ManyToOne
     private AccessLevel accessLevel;
-    @OneToMany
+    @ManyToOne
     private JourneyJob journeyJob;
     private BigDecimal tolerance;
     private LocalDateTime initialJourney;

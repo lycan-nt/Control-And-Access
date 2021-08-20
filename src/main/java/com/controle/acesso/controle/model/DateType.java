@@ -1,7 +1,6 @@
 package com.controle.acesso.controle.model;
 
 import lombok.*;
-import javax.persistence.ManyToOne;
 
 @Getter
 @Setter
@@ -9,9 +8,7 @@ import javax.persistence.ManyToOne;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
-public class Location {
+public class DateType {
     private long id;
-    @ManyToOne
-    private AccessLevel accessLevel;
     private String description;
 }
