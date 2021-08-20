@@ -8,7 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
-public class JourneyJob {
+public class CategoryUser {
     private Long id;
     private String description;
 }
