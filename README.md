@@ -1,5 +1,5 @@
 # Control-And-Access
-    Api rest para gerenciamento de ponto e controle de acesso.
+    Rest API for point management and access control.
     
 ## Presentation
     This project was created during Santander's bootcamp with DIO.
