@@ -1,2 +1,5 @@
-# Control-And-Access
-Project for control and access done in java with springboot
+# diolive
+
+Api rest para gerenciamento de ponto e controle de acesso.
+
+Java | Spring boot | Spring Data Jpa | Hibernate | Lombok | swagger

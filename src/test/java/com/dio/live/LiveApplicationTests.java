@@ -1,13 +1,13 @@
-package com.controle.acesso.controle;
+package com.dio.live;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ControleDeAcessoApplicationTests {
+class LiveApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
